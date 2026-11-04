@@ -139,7 +139,6 @@ def update_book(book_id: int, book_data: BookUpdate):
         return book
 
 
-# 13. DELETE A BOOK
 
 @app.delete("/books/{book_id}", status_code=204)
 def delete_book(book_id: int):
