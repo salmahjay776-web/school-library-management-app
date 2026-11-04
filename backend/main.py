@@ -157,6 +157,3 @@ def delete_book(book_id: int):
         return None
 
 
-//Nankumba salmah 
-//Nakabuye hafswa 
-//luksa haruna
