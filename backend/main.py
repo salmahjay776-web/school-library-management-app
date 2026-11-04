@@ -49,7 +49,6 @@ def create_db_and_tables():
     SQLModel.metadata.create_all(engine)
 
 
-# 6. INITIALIZE FASTAPI
 
 app = FastAPI(
     title="School Library Management App API",
